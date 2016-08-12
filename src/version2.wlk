@@ -1,7 +1,7 @@
 /**
- * Introducción a Objetos
+ * Introducción a Objetos, Objetos-Mensaje
  *
- * salvador es otro sujeto con quien pepe puede interactuar
+ * salvador es otro sujeto con quien pepe puede interactuar.
  */
  
 object pepe {

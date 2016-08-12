@@ -1,8 +1,8 @@
 /**
- * Introducción a Objetos
+ * Introducción a Objetos, Objetos-Mensaje
  *
- * en la zapateria, pepe le vende zapatos a fiona 
- * a pepe le importa que saber si sus clientes son feliz, por eso se los pregunta
+ * En la zapateria, pepe le vende zapatos a fiona. 
+ * A pepe le importa que saber si sus clientes son feliz, por eso se los pregunta.
  */
  
 object pepe {

@@ -1,7 +1,7 @@
 /**
- * Introducción a Objetos
+ * Introducción a Objetos, Objetos-Mensaje
  *
- * 
+ * Resulta que pepe es muy buen vendedor y puede atender a otras personas, no solo a fiona y salvador
  */
  
 object pepe {

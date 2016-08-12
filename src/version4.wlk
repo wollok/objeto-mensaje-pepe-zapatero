@@ -1,7 +1,8 @@
 /**
- * Introducción a Objetos
+ * Introducción a Objetos, Objetos-Mensaje
  *
- * 
+ * Descubrimos otra habilidad de pepe, es bueno arreglando cosas.
+ * Cuando pepe arregla cosas se cansa y su fatiga aumenta.
  */
  
 object pepe {
