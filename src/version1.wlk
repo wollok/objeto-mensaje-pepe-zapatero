@@ -1,7 +1,7 @@
 /**
  * Introducción a Objetos
  *
- * pepe le vende zapatos a fiona en la zapateria
+ * en la zapateria, pepe le vende zapatos a fiona 
  * a pepe le importa que saber si sus clientes son feliz, por eso se los pregunta
  */
  
