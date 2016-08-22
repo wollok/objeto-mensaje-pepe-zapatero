@@ -1,8 +1,9 @@
 /**
- * Introducción a Objetos, Objetos-Mensaje
+ * IntroducciÃ³n a Objetos, Objetos-Mensaje
  *
- * En la zapateria, pepe le vende zapatos a fiona. 
- * A pepe le importa que saber si sus clientes son feliz, por eso se los pregunta.
+ * En la zapateria, pepe labura vendiendole zapatos a su clienta fiona. 
+ * Pepe saber decir si su cliente esta feliz.
+ * Fiona se pone feliz cuando compra zapatos
  */
  
 object pepe {
