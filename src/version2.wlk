@@ -1,7 +1,7 @@
 /**
- * Introducción a Objetos, Objetos-Mensaje
+ * Introducción a Objetos
  *
- * salvador es otro sujeto con quien pepe puede interactuar.
+ * Mas objetos, con el mismo comportamiento
  */
  
 object pepe {
@@ -10,17 +10,17 @@ object pepe {
 	}
 	
 	method labura(){
-		fiona.compraZapatos()
-		//salvador.compraZapatos()				// NUEVO!
+		//fiona.compraZapatos()
+		salvador.compraZapatos()				// NUEVO!
 	}
 	
-	method tuClienteEstaFeliz() {
-		return fiona.estaFeliz()
-		//return salvador.estaFeliz() 			// NUEVO! 
+	method hicisteBienTuTrabajo() {
+		//return fiona.estaFeliz()
+		return salvador.estaFeliz() 			// NUEVO! 
 	}
 }
 
-object fiona {
+/*object fiona {
 	
 	var felicidad = false
 	
@@ -31,17 +31,17 @@ object fiona {
 	method estaFeliz() {
 		return felicidad
 	}
-}
+}*/
 
 object salvador { 								// NUEVO! 
 	
-	var plata = 1200
+	var dinero = 1200
 	
 	method compraZapatos() {
-		plata = 1200 - 700	
+		dinero = dinero - 700	
 	}
 	
 	method estaFeliz() {
-		return plata > 0
+		return dinero > 0
 	}
 }
