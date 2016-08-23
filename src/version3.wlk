@@ -1,7 +1,12 @@
 /**
  * Introducción a Objetos, Objetos-Mensaje
+<<<<<<< .mine
+ * Pepe zapatero. 
+ * Polimorfismo en un atributo
+=======
  *
  * Resulta que pepe es muy buen vendedor y puede atender a otras personas, no solo a fiona y salvador
+>>>>>>> .r9
  */
  
 object pepe {
@@ -15,11 +20,11 @@ object pepe {
 		cliente.compraZapatos()				// NUEVO !
 	}
 	
-	method tuClienteEstaFeliz() {
+	method hicisteBienTuTrabajo() {
 		return cliente.estaFeliz() 			// NUEVO !
 	}
 	
-	method tuClientees(unCliente) { 		// NUEVO !
+	method tuClienteEs(unCliente) { 		// NUEVO !
 		cliente = unCliente
 	}
 	
@@ -38,13 +43,13 @@ object fiona {
 }
 
 object salvador {
-	var plata = 1200
+	var dinero  = 1200
 	
 	method compraZapatos() {
-		plata = 1200 - 700	
+		dinero  = dinero - 700	
 	}
 	
 	method estaFeliz() {
-		return plata > 0
+		return dinero > 0
 	}
 }

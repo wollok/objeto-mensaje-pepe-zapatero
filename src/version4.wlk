@@ -1,8 +1,13 @@
 /**
  * Introducción a Objetos, Objetos-Mensaje
+<<<<<<< .mine
+ * Pepe zapatero. 
+ * Polimorfismo en el argumento de un mensaje
+=======
  *
  * Descubrimos otra habilidad de pepe, es bueno arreglando cosas.
  * Cuando pepe arregla cosas se cansa y su fatiga aumenta.
+>>>>>>> .r9
  */
  
 object pepe {
@@ -17,7 +22,7 @@ object pepe {
 		cliente.compraZapatos()
 	}
 	
-	method tuClienteEstaFeliz() {
+	method hicisteBienTuTrabajo() {
 		return cliente.estaFeliz()
 	}
 	
@@ -25,13 +30,14 @@ object pepe {
 		cliente = unCliente
 	}	
 	
-	method arregla(algo) { 					// NUEVO !
-		fatiga = fatiga + algo.cuantoTarda()
+	method arregla(calzado) { 					// NUEVO !
+		fatiga = fatiga + calzado.complejidad()
 	}
 	
 }
 
-// POSIBLES CLIENTES >>>
+// POSIBLES CLIENTES 
+
 object fiona {	
 	var felicidad = false
 	
@@ -45,33 +51,32 @@ object fiona {
 }
 
 object salvador {
-	var plata = 1200
+	var dinero = 1200
 	
 	method compraZapatos() {
-		plata = 1200 - 700	
+		dinero = dinero - 700	
 	}
 	
 	method estaFeliz() {
-		return plata > 0
+		return dinero  > 0
 	}
 }
 
-// <<< POSIBLES CLIENTES
-
 // COSAS QUE PEPE PUEDE ARREGLAR >>>
-object mesa { 				// NUEVO !
-	method cuantoTarda() {
+
+object alpargata { 			// NUEVO !
+	method complejidad() {
 		return 10
 	}
 }
 
-object auto { 				// NUEVO !
-	var arreglo = 1000
-	method cuantoTarda() {
-		return arreglo
+object botaDeCuero { 		// NUEVO !
+	var destruccion = 100
+	method complejidad() {
+		return destruccion
 	}
-	
-	//Idea: Agregar algun método que modifique 'arreglo'
+	method malUso(){
+		destruccion = destruccion * 2
+	}
 }
 
-// <<< COSAS QUE PEPE PUEDE ARREGLAR
