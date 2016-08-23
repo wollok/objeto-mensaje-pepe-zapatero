@@ -1,13 +1,7 @@
 /**
  * Introducción a Objetos, Objetos-Mensaje
-<<<<<<< .mine
  * Pepe zapatero. 
  * Polimorfismo en el argumento de un mensaje
-=======
- *
- * Descubrimos otra habilidad de pepe, es bueno arreglando cosas.
- * Cuando pepe arregla cosas se cansa y su fatiga aumenta.
->>>>>>> .r9
  */
  
 object pepe {
