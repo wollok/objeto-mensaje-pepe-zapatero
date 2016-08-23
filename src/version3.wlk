@@ -1,13 +1,8 @@
 /**
  * Introducción a Objetos, Objetos-Mensaje
-<<<<<<< .mine
  * Pepe zapatero. 
  * Polimorfismo en un atributo
-=======
- *
- * Resulta que pepe es muy buen vendedor y puede atender a otras personas, no solo a fiona y salvador
->>>>>>> .r9
- */
+*/
  
 object pepe {
 	var cliente = fiona 					// NUEVO !
