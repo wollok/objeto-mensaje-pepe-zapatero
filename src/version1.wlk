@@ -1,9 +1,7 @@
 /**
- * IntroducciÃ³n a Objetos, Objetos-Mensaje
+ * Introducción a Objetos
  *
- * En la zapateria, pepe labura vendiendole zapatos a su clienta fiona. 
- * Pepe saber decir si su cliente esta feliz.
- * Fiona se pone feliz cuando compra zapatos
+ * Mensajes entre objetos. 
  */
  
 object pepe {
@@ -15,7 +13,7 @@ object pepe {
 		fiona.compraZapatos()
 	}
 	
-	method tuClienteEstaFeliz() {
+	method hicisteBienTuTrabajo() {
 		return fiona.estaFeliz()
 	}
 }
