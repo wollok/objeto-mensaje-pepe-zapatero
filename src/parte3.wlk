@@ -1,5 +1,5 @@
 /**
- * Introducción a Objetos, Objetos-Mensaje
+ * Introduccion a Objetos, Objetos-Mensaje
  * Pepe zapatero. 
  * Polimorfismo en un atributo
 */

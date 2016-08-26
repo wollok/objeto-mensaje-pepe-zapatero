@@ -1,5 +1,5 @@
 /**
- * Introducción a Objetos
+ * Introduccion a Objetos
  *
  * Mensajes entre objetos. 
  */

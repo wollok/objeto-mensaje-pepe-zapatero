@@ -1,5 +1,5 @@
 /**
- * Introducción a Objetos
+ * Introduccion a Objetos
  *
  * Mas objetos, con el mismo comportamiento
  */
